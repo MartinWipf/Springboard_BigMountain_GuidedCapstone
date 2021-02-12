@@ -1,24 +1,35 @@
-# Springboard_BigMountain_GuidedCapstone
-Excercise6
+# DataScienceGuidedCapstone
 
-Guided Capstone Project Overview + Context
-Your client is Big Mountain Resort, a ski resort located in Montana. Big Mountain Resort
-offers spectacular views of Glacier National Park and Flathead National Forest, with
-access to 105 trails. Every year about 350,000 people ski or snowboard at Big Mountain.
-This mountain can accommodate skiers and riders of all levels and abilities.
-These are serviced by 11 lifts, 2 T-bars, and 1 magic carpet for novice skiers. The
-longest run is named Hellfire and is 3.3 miles in length. The base elevation is 4,464 ft,
-and the summit is 6,817 ft with a vertical drop of 2,353 ft.
-Big Mountain Resort has recently installed an additional chair lift to help increase the
-distribution of visitors across the mountain. This additional chair increases their
-operating costs by $1,540,000 this season.
-The resort's pricing strategy has been to charge a premium above the average price of
-resorts in its market segment. They know there are limitations to this approach. There's
-a suspicion that Big Mountain is not capitalizing on its facilities as much as it could.
-Basing their pricing on just the market average does not provide the business with a
-good sense of how important some facilities are compared to others. This hampers
-investment strategy. You are part of a new data science team brought in to implement a
-more data-driven business strategy. The business wants some guidance on how to
-select a better value for their ticket price. They are also considering a number of
-changes that they hope will either cut costs without undermining the ticket price or will
-support an even higher ticket price.
+Hello students!
+Welcome to the Data Science Guided Capstone! 
+
+## Getting Started
+
+Start by forking this repository to your personal GitHub account and cloning the fork to your local machine. 
+
+**Note**: If forking and cloning a repo is new to you and/or github is new to you then it is strongly suggested to use [GitHub desktop](https://desktop.github.com/) and follow instructions in the docs [here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
+
+From https://github.com/springboard-curriculum/DataScienceGuidedCapstone press the green "code" dropdown and then press "Open with GitHub Desktop". This will fork the springboard repository into your own github account and then clone that fork to your local machine - it is in here that you will do your work and push your changes back to your fork of the repo in your own github account. 
+
+You will find the notebooks in the Notebooks/ directory. 
+
+You will find instructions on how to complete and submit each step of the Guided Capstone in the course materials. Each subunit will focus on one step of the Capstone, corresponding to a step of the Data Science Method. Find the Jupyter Notebook corresponding to the subunit you are working on, and open it. Follow along as you are guided through the work, and fill in the blanks!
+
+When you are done with the notebook, push the changes to your personal GitHub account.
+
+## Pipenv
+
+The `Pipefile` has all the python dependencies and requirements you should need. So you can use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/) is you want to create a seperate python enviornment for this project. 
+
+To install pipenv see [here](https://pipenv-fork.readthedocs.io/en/latest/#install-pipenv-today).
+
+To create the env and install the required libraries (once you have pipenv installed) you can just do:
+```
+pipenv install
+```
+
+Then to activate the env and launch jupyter from this env you can do something like the below two commands:
+```
+pipenv shell
+jupyter lab
+```
